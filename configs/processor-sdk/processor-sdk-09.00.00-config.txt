@@ -1,17 +1,16 @@
 # This file takes repo entries in the format
 # repo name,repo uri,repo branch,repo commit[,layers=layer1:layer2...:layern]
 
-bitbake,https://git.openembedded.org/bitbake,2.0,41b6684489d0261753344956042be2cc4adb0159
-meta-edgeai,https://git.ti.com/git/edgeai/meta-edgeai.git,kirkstone,dc78e4f3906774ac281dbb89fab258bef4efd2f4,layers=
-meta-processor-sdk,https://git.ti.com/git/processor-sdk/meta-processor-sdk.git,kirkstone,d62bb16a9490216371b0ccf0a11e967582d7a681,layers=
-meta-arago,https://git.yoctoproject.org/meta-arago,kirkstone,09.00.00.009,layers=meta-arago-distro:meta-arago-extras:meta-arago-demos
-meta-qt5,https://github.com/meta-qt5/meta-qt5.git,kirkstone,31930afca79b74e0c788452d71356c1f045e7979,layers=
-meta-virtualization,https://git.yoctoproject.org/meta-virtualization,kirkstone,e60f59f3567b78286ea34337dbae468a5f18f1c6,layers=
-meta-openembedded,https://git.openembedded.org/meta-openembedded,kirkstone,529620141e773080a6a7be4615fb7993204af883,layers=meta-networking:meta-python:meta-oe:meta-gnome:meta-filesystems
-meta-ti,https://git.yoctoproject.org/meta-ti,kirkstone,09.00.00.009,layers=meta-ti-extras:meta-ti-bsp
-meta-arm,https://git.yoctoproject.org/meta-arm,kirkstone,b187fb9232ca0a6b5f8f90b4715958546fc41d73,layers=meta-arm:meta-arm-toolchain
-meta-clang,https://github.com/kraj/meta-clang,kirkstone,2d08d6bf376a1e06c53164fd6283b03ec2309da4,layers=
-oe-core,https://git.openembedded.org/openembedded-core,kirkstone,8ceaeff90023e51c7e874464f026b30d24035bda,layers=meta
+bitbake,https://git.openembedded.org/bitbake,2.0,0c6f86b60cfba67c20733516957c0a654eb2b44c
+meta-edgeai,https://git.ti.com/git/edgeai/meta-edgeai.git,kirkstone,a1d9091cd914ce0bc69958891628a4cf86ed3e96,layers=
+meta-processor-sdk,https://git.ti.com/git/processor-sdk/meta-processor-sdk.git,kirkstone,9dad5765d33783f940ba3c32f4fc431e2b308621,layers=
+meta-arago,https://git.yoctoproject.org/meta-arago,kirkstone,09.00.00.006,layers=meta-arago-distro:meta-arago-extras:meta-arago-demos
+meta-qt5,https://github.com/meta-qt5/meta-qt5.git,kirkstone,bff5bd937f0776166e81a63f3dd39ede348ef758,layers=
+meta-virtualization,https://git.yoctoproject.org/meta-virtualization,kirkstone,b3b3dbc67504e8cd498d6db202ddcf5a9dd26a9d,layers=
+meta-openembedded,https://git.openembedded.org/meta-openembedded,kirkstone,346753705e49a2486867dc150181a1c7f4d69377,layers=meta-networking:meta-python:meta-oe:meta-gnome:meta-filesystems:meta-multimedia
+meta-ti,https://git.yoctoproject.org/meta-ti,kirkstone,09.00.00.006,layers=meta-ti-extras:meta-ti-bsp
+meta-arm,https://git.yoctoproject.org/meta-arm,kirkstone,96aad3b29aa7a5ee4df5cf617a6336e5218fa9bd,layers=meta-arm:meta-arm-toolchain
+oe-core,https://git.openembedded.org/openembedded-core,kirkstone,f20a12ead2d5890e88e7f4ce149a777de47edc48,layers=meta
 OECORELAYERCONF=./sample-files/bblayers.conf.sample
 OECORELOCALCONF=./sample-files/local-arago64-v2.conf.sample
 BITBAKE_INCLUSIVE_VARS=yes
